@@ -1,2 +1,2 @@
-Howdy! 🤠
-This is an app to help you manage To Do Things
+Howdy! 🤠 This app is written in Python
+Its to help you manage tasks
