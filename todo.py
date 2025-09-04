@@ -18,7 +18,9 @@ def delete_tasks(index):
     print(f"Deleted: {task}")
 
 # Step 5: Mark task complete
-
+def mark_complete(index):
+    if 0 <= index < len(tasks):
+        tasks[index] = tasks[index] + " ✅"
 
 # Demo flow (you can run this file directly: python todo.py)
 if __name__ == "__main__":
@@ -27,6 +29,5 @@ if __name__ == "__main__":
     view_tasks()
     delete_tasks(0)
     view_tasks()
-    # mark_complete(0)
-    # view_tasks()
-    # save_tasks()
+    mark_complete(0)
+    view_tasks()
